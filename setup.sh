@@ -16,20 +16,22 @@ install_fonts() {
 
 # Install Themes
 install_themes() {
-	if [[ -d "$PDIR" ]]; then
-		echo -e "[*] Creating a backup of your polybar configs..."
-		mv "$PDIR" "${PDIR}.old"
-		{ mkdir -p "$PDIR"; cp -rf $DIR/$STYLE/* "$PDIR"; }
-	else
-		{ mkdir -p "$PDIR"; cp -rf $DIR/$STYLE/* "$PDIR"; }	
-	fi
-	if [[ -f "$PDIR/launch.sh" ]]; then
-		echo -e "[*] Successfully Installed.\n"
-		exit 0
-	else
-		echo -e "[!] Failed to install.\n"
-		exit 1
-	fi
+	# if [[ -d "$PDIR" ]]; then
+	# 	echo -e "[*] Creating a backup of your polybar configs..."
+	# 	mv "$PDIR" "${PDIR}.old"
+	# 	{ mkdir -p "$PDIR"; cp -rf $DIR/$STYLE/* "$PDIR"; }
+	# else
+	# 	{ mkdir -p "$PDIR"; cp -rf $DIR/$STYLE/* "$PDIR"; }	
+	# fi
+	# if [[ -f "$PDIR/launch.sh" ]]; then
+	# 	echo -e "[*] Successfully Installed.\n"
+	# 	exit 0
+	# else
+	# 	echo -e "[!] Failed to install.\n"
+	# 	exit 1
+	# fi
+	echo -e "[*] Successfully Installed.\n"
+	exit 0
 }
 
 # Main
