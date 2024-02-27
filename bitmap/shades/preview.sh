@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-DIR="$HOME/.config/polybar/shades"
+DIR="$HOME/.config/polybar/polybar-themes/simple/shades"
 
 # Terminate already running bar instances
 killall -q polybar

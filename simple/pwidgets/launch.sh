@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-DIR="$HOME/.config/polybar/pwidgets"
+DIR="$HOME/.config/polybar/polybar-themes/simple/pwidgets"
 
 kill_bar() {
 	# Terminate already running bar instances

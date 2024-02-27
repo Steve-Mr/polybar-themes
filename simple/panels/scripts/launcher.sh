@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-DIR="$HOME/.config/polybar/panels/menu"
+DIR="$HOME/.config/polybar/polybar-themes/simple/panels/menu"
 
 launcher() {
 	rofi -no-config -no-lazy-grab -show drun -modi drun -theme "$DIR"/"$theme"/launcher.rasi

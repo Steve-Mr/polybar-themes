@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-SDIR="$HOME/.config/polybar/material/scripts"
+SDIR="$HOME/.config/polybar/polybar-themes/simple/material/scripts"
 
 # Launch Rofi
 MENU="$(rofi -no-config -no-lazy-grab -sep "|" -dmenu -i -p '' \

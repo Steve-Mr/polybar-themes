@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-DIR="$HOME/.config/polybar/blocks"
+DIR="$HOME/.config/polybar/polybar-themes/simple/blocks"
 
 # Terminate already running bar instances
 killall -q polybar

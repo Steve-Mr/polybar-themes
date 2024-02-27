@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-DIR="$HOME/.config/polybar/shapes"
+DIR="$HOME/.config/polybar/polybar-themes/simple/shapes"
 
 # Terminate already running bar instances
 killall -q polybar

@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 # Color files
-PFILE="$HOME/.config/polybar/docky/colors.ini"
-RFILE="$HOME/.config/polybar/docky/scripts/rofi/colors.rasi"
+PFILE="$HOME/.config/polybar/polybar-themes/simple/docky/colors.ini"
+RFILE="$HOME/.config/polybar/polybar-themes/simple/docky/scripts/rofi/colors.rasi"
 WFILE="$HOME/.cache/wal/colors.sh"
 
 # Get colors
